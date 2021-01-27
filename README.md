@@ -35,10 +35,13 @@ A demo .NET console application for easy query debugging in Kentico Xperience ap
 ### Using in an Xperience Solution / Project
 
 If you want to incorporate this into your Xperience 13.0 project to help debug queries you are working on for your site, you can also use [User Secrets](https://docs.microsoft.com/en-us/aspnet/core/security/app-secrets?view=aspnetcore-3.1&tabs=windows), in VS Code or Visual Studio, to store your Connection String and other settings.
+
 This app also supports using an `appsettings.local.json`, which you could ignore from source control if needed.
 
 Whether or not you include this project in source control along with your application code depends on how you want to use it.
+
 If it's a way to share query snippets for your team and be able to quickly test those, then use User Secrets to store the Connection String and commit everything to source control.
+
 If it's a scratchpad to explore ideas but not share with the team, then add the project path to your `.gitignore` and debug in VS Code so you don't run into the limitations in Visual Studio with not having the project in your shared solution files.
 
 ## References
