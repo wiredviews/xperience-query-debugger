@@ -3,6 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <UserSecretsId>d51cbbfc-dd4b-4f86-8b34-c2dbafd80639</UserSecretsId>
   </PropertyGroup>
 
    <ItemGroup>
@@ -13,7 +14,8 @@
 
   <ItemGroup>
     <PackageReference Include="Kentico.Xperience.Libraries" Version="13.0.6" />
-    <PackageReference Include="WiredViews.Xperience.AppSettingsJsonRegistration" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="3.1.11" />
+    <PackageReference Include="WiredViews.Xperience.AppSettingsJsonRegistration" Version="1.1.0" />
     <PackageReference Include="WiredViews.Xperience.QueryExtensions" Version="1.0.0" />
   </ItemGroup>
 
